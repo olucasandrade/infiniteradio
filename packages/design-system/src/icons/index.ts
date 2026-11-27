@@ -6,6 +6,7 @@ export {
   ChevronDown,
   ChevronLeft,
   ChevronRight,
+  Github,
   Headphones,
   Heart,
   Info,
