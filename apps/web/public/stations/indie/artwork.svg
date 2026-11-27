@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Open Window artwork - pale green light across an open landscape">
+  <defs>
+    <linearGradient id="ow-sky" x2="0" y2="1"><stop stop-color="#25342f"/><stop offset=".62" stop-color="#1c2825"/><stop offset="1" stop-color="#111715"/></linearGradient>
+    <radialGradient id="ow-light" cx="72%" cy="25%" r="50%"><stop stop-color="#d0dfbd" stop-opacity=".5"/><stop offset="1" stop-color="#a8c9a1" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#ow-sky)"/>
+  <rect width="400" height="400" fill="url(#ow-light)"/>
+  <path d="M0 274 75 229l54 24 79-76 70 61 49-29 73 53v138H0Z" fill="#18231f"/>
+  <path d="M0 316 97 265l69 37 93-60 141 57v101H0Z" fill="#111916"/>
+  <path d="M38 400V69h20v331M342 400V69h20v331M58 89h284" fill="none" stroke="#b4c9ad" stroke-opacity=".3" stroke-width="3"/>
+  <path d="M199 90v144" stroke="#b4c9ad" stroke-opacity=".2" stroke-width="2"/>
+  <circle cx="294" cy="111" r="24" fill="#d0dfbd" opacity=".5"/>
+</svg>

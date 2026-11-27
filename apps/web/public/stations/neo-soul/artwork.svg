@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Velvet artwork - rose fabric-like curves in a dark room">
+  <defs>
+    <linearGradient id="ns-bg" x2="1" y2="1"><stop stop-color="#21181d"/><stop offset="1" stop-color="#101216"/></linearGradient>
+    <linearGradient id="ns-fold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d8a0a6" stop-opacity=".65"/><stop offset=".5" stop-color="#825d69" stop-opacity=".28"/><stop offset="1" stop-color="#28232b" stop-opacity=".1"/></linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#ns-bg)"/>
+  <path d="M-30 310C70 230 72 76 214 54c87-14 136 31 224 5v159c-92 32-141-32-217-4C129 248 121 356-30 382Z" fill="url(#ns-fold)"/>
+  <path d="M-10 320C97 238 85 111 219 81c91-21 126 24 202 7" fill="none" stroke="#e0b5b9" stroke-opacity=".4" stroke-width="2"/>
+  <path d="M30 400c89-96 81-205 184-237 79-25 120 15 186-1" fill="none" stroke="#d8a0a6" stroke-opacity=".18"/>
+  <circle cx="302" cy="101" r="34" fill="#d8a0a6" opacity=".08"/>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="After Hours artwork — nighttime city atmosphere in dark violet and blue">
+  <defs>
+    <linearGradient id="ah-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1626"/>
+      <stop offset="60%" stop-color="#241d33"/>
+      <stop offset="100%" stop-color="#14101d"/>
+    </linearGradient>
+    <radialGradient id="ah-glow" cx="50%" cy="80%" r="60%">
+      <stop offset="0%" stop-color="#9b8aae" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#9b8aae" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#ah-sky)"/>
+  <rect width="400" height="400" fill="url(#ah-glow)"/>
+
+  <!-- abstract architectural silhouettes -->
+  <g fill="#0f0c16">
+    <rect x="30" y="180" width="52" height="220"/>
+    <rect x="95" y="120" width="44" height="280"/>
+    <rect x="150" y="210" width="60" height="190"/>
+    <rect x="222" y="150" width="38" height="250"/>
+    <rect x="272" y="90" width="56" height="310"/>
+    <rect x="340" y="190" width="40" height="210"/>
+  </g>
+
+  <!-- lit windows: scattered warm and cool points -->
+  <g>
+    <rect x="102" y="140" width="5" height="8" fill="#c7a879" opacity="0.85"/>
+    <rect x="118" y="170" width="5" height="8" fill="#8fa3b8" opacity="0.7"/>
+    <rect x="105" y="220" width="5" height="8" fill="#c7a879" opacity="0.5"/>
+    <rect x="280" y="110" width="5" height="8" fill="#9b8aae" opacity="0.9"/>
+    <rect x="300" y="150" width="5" height="8" fill="#c7a879" opacity="0.6"/>
+    <rect x="285" y="200" width="5" height="8" fill="#8fa3b8" opacity="0.5"/>
+    <rect x="40" y="210" width="5" height="8" fill="#9b8aae" opacity="0.6"/>
+    <rect x="160" y="240" width="5" height="8" fill="#c7a879" opacity="0.55"/>
+    <rect x="230" y="180" width="5" height="8" fill="#c7a879" opacity="0.7"/>
+    <rect x="350" y="220" width="5" height="8" fill="#8fa3b8" opacity="0.6"/>
+    <rect x="115" y="280" width="5" height="8" fill="#9b8aae" opacity="0.45"/>
+    <rect x="295" y="260" width="5" height="8" fill="#c7a879" opacity="0.4"/>
+  </g>
+
+  <!-- a low moon through the haze -->
+  <circle cx="320" cy="70" r="18" fill="#b9aecf" opacity="0.5"/>
+  <circle cx="320" cy="70" r="34" fill="#9b8aae" opacity="0.12"/>
+</svg>

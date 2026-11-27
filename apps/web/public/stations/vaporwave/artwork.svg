@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Vapor Trails artwork - faded blue perspective and distant signals">
+  <defs>
+    <linearGradient id="vt-bg" x2="0" y2="1"><stop stop-color="#1a2330"/><stop offset=".55" stop-color="#172027"/><stop offset="1" stop-color="#101316"/></linearGradient>
+    <linearGradient id="vt-horizon"><stop stop-color="#9bb7d4" stop-opacity="0"/><stop offset=".5" stop-color="#9bb7d4" stop-opacity=".65"/><stop offset="1" stop-color="#9bb7d4" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#vt-bg)"/>
+  <circle cx="204" cy="146" r="72" fill="none" stroke="#9bb7d4" stroke-opacity=".34" stroke-width="18" stroke-dasharray="310 85 38 70"/>
+  <rect x="0" y="213" width="400" height="2" fill="url(#vt-horizon)"/>
+  <g fill="none" stroke="#9bb7d4" stroke-opacity=".16">
+    <path d="M200 215 28 400M200 215 113 400M200 215 287 400M200 215 372 400"/>
+    <path d="M0 258h400M0 306h400M0 366h400"/>
+  </g>
+  <g fill="#c4d2df" opacity=".32"><rect x="55" y="105" width="52" height="2"/><rect x="286" y="179" width="70" height="2"/><rect x="118" y="274" width="34" height="2"/></g>
+  <path d="M0 191h104l9-8h94l13 12h180" fill="none" stroke="#c4d2df" stroke-opacity=".25"/>
+</svg>

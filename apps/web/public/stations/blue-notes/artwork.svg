@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Blue Notes artwork — warm jazz club interior in deep amber and brown">
+  <defs>
+    <radialGradient id="bn-room" cx="50%" cy="35%" r="85%">
+      <stop offset="0%" stop-color="#6b4a2a"/>
+      <stop offset="55%" stop-color="#3c2a18"/>
+      <stop offset="100%" stop-color="#1d130a"/>
+    </radialGradient>
+    <radialGradient id="bn-lamp" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e8c48a" stop-opacity="0.9"/>
+      <stop offset="45%" stop-color="#c7a879" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#c7a879" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bn-floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a1c0e"/>
+      <stop offset="100%" stop-color="#120b05"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#bn-room)"/>
+
+  <!-- a single pendant lamp and its pool of light -->
+  <line x1="200" y1="0" x2="200" y2="72" stroke="#0f0a05" stroke-width="3"/>
+  <path d="M178 72 h44 l-10 22 h-24 z" fill="#241708"/>
+  <circle cx="200" cy="102" r="30" fill="url(#bn-lamp)"/>
+  <ellipse cx="200" cy="330" rx="150" ry="34" fill="url(#bn-lamp)" opacity="0.5"/>
+
+  <!-- floor -->
+  <rect x="0" y="310" width="400" height="90" fill="url(#bn-floor)"/>
+
+  <!-- abstract tables as soft silhouettes -->
+  <g fill="#0f0a05">
+    <ellipse cx="95" cy="322" rx="46" ry="9"/>
+    <rect x="91" y="322" width="8" height="34"/>
+    <ellipse cx="305" cy="326" rx="52" ry="10"/>
+    <rect x="301" y="326" width="8" height="34"/>
+  </g>
+  <!-- candle glints -->
+  <circle cx="95" cy="312" r="2.4" fill="#e8c48a" opacity="0.9"/>
+  <circle cx="305" cy="315" r="2.4" fill="#e8c48a" opacity="0.8"/>
+
+  <!-- drifting smoke -->
+  <path d="M150 250 q20 -40 -6 -78 q-22 -34 4 -70" stroke="#c7a879" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.12"/>
+  <path d="M255 260 q-18 -44 8 -82 q20 -32 -2 -66" stroke="#e8c48a" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.09"/>
+</svg>

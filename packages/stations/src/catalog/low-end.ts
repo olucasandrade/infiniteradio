@@ -1,0 +1,62 @@
+import type { TrackSeed } from './tracks'
+
+function t(
+  title: string,
+  artist: string,
+  year: number,
+  keyRootPc: number,
+  scale: TrackSeed['scale'],
+  energy: number,
+  brightness: number,
+  movement: number,
+  swing: number,
+): TrackSeed {
+  return {
+    title,
+    artist,
+    year,
+    keyRootPc,
+    scale,
+    energy,
+    brightness,
+    movement,
+    swing,
+    rhythmicDensity: movement,
+    texture: 1 - brightness * 0.6,
+  }
+}
+
+export const LOW_END_TRACKS: readonly TrackSeed[] = [
+  t('Feather', 'Nujabes', 2005, 2, 'major', 0.48, 0.62, 0.48, 0.32),
+  t('Aruarian Dance', 'Nujabes', 2004, 4, 'major', 0.3, 0.58, 0.28, 0.24),
+  t('Reflection Eternal', 'Nujabes', 2005, 1, 'naturalMinor', 0.38, 0.5, 0.36, 0.28),
+  t('Lady Brown', 'Nujabes', 2003, 8, 'naturalMinor', 0.5, 0.55, 0.48, 0.35),
+  t('Luv(sic.) Pt. 3', 'Nujabes', 2005, 2, 'dorian', 0.5, 0.52, 0.46, 0.3),
+  t("World's End Rhapsody", 'Nujabes', 2005, 7, 'naturalMinor', 0.34, 0.4, 0.32, 0.22),
+  t('Workinonit', 'J Dilla', 2006, 7, 'mixolydian', 0.78, 0.64, 0.8, 0.72),
+  t('Waves', 'J Dilla', 2006, 0, 'major', 0.68, 0.58, 0.7, 0.66),
+  t("Don't Cry", 'J Dilla', 2006, 5, 'major', 0.56, 0.5, 0.58, 0.6),
+  t('Two Can Win', 'J Dilla', 2006, 3, 'major', 0.5, 0.58, 0.54, 0.58),
+  t('Geek Down', 'J Dilla', 2006, 2, 'dorian', 0.72, 0.48, 0.76, 0.74),
+  t('Last Donut of the Night', 'J Dilla', 2006, 8, 'major', 0.54, 0.56, 0.6, 0.64),
+  t('Time: The Donut of the Heart', 'J Dilla', 2006, 6, 'naturalMinor', 0.42, 0.42, 0.48, 0.55),
+  t('Airworks', 'J Dilla', 2006, 9, 'major', 0.46, 0.54, 0.52, 0.62),
+  t('Jstowee', 'Knxwledge', 2015, 5, 'dorian', 0.58, 0.42, 0.62, 0.7),
+  t('Dntfall', 'Knxwledge', 2015, 10, 'naturalMinor', 0.5, 0.36, 0.58, 0.66),
+  t("Slim's Return", 'Madlib', 2003, 2, 'dorian', 0.58, 0.45, 0.62, 0.48),
+  t('Distant Land', 'Madlib', 2003, 5, 'dorian', 0.48, 0.4, 0.52, 0.44),
+  t('Mystic Bounce', 'Madlib', 2003, 3, 'dorian', 0.52, 0.46, 0.56, 0.46),
+  t('Midnight in a Perfect World', 'DJ Shadow', 1996, 4, 'naturalMinor', 0.38, 0.4, 0.4, 0.3),
+  t(
+    'Building Steam with a Grain of Salt',
+    'DJ Shadow',
+    1996,
+    7,
+    'naturalMinor',
+    0.58,
+    0.44,
+    0.62,
+    0.36,
+  ),
+  t('The Creator', 'Pete Rock & CL Smooth', 1992, 1, 'dorian', 0.55, 0.5, 0.58, 0.4),
+]

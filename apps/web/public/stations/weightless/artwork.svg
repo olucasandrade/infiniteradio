@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Weightless artwork — atmospheric open space in muted blue and grey">
+  <defs>
+    <radialGradient id="w-sky" cx="50%" cy="28%" r="85%">
+      <stop offset="0%" stop-color="#3d4a58"/>
+      <stop offset="55%" stop-color="#28313c"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </radialGradient>
+    <radialGradient id="w-fog-a" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8fa3b8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#8fa3b8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="w-fog-b" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6d7d8d" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#6d7d8d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="400" height="400" fill="url(#w-sky)"/>
+
+  <!-- floating fog forms -->
+  <ellipse cx="140" cy="150" rx="150" ry="70" fill="url(#w-fog-a)"/>
+  <ellipse cx="290" cy="230" rx="170" ry="80" fill="url(#w-fog-b)"/>
+  <ellipse cx="180" cy="320" rx="200" ry="70" fill="url(#w-fog-a)" opacity="0.7"/>
+  <ellipse cx="330" cy="90" rx="120" ry="55" fill="url(#w-fog-b)" opacity="0.6"/>
+
+  <!-- a single distant point of light -->
+  <circle cx="200" cy="118" r="2.6" fill="#dfe7ee" opacity="0.9"/>
+  <circle cx="200" cy="118" r="9" fill="#8fa3b8" opacity="0.18"/>
+</svg>
